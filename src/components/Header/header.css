@@ -1,0 +1,76 @@
+.header{
+    /* background-image: url('../../img/Everything-You-Need-To-Know-About-Al-Noor-Mosque-in-Sharjah.jpg'); */
+    background-image: linear-gradient(rgba(20, 20, 20, 0.7), rgba(20, 20, 20, 0.1)), url('../../img/Everything-You-Need-To-Know-About-Al-Noor-Mosque-in-Sharjah.jpg');
+    height:90vh;
+    width: 100%;
+    background-attachment: fixed;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+.header .header-right{
+    margin-right: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+.header .header-right h1{
+    font-size: 50px;
+    text-align: center;
+}
+.header .header-right .tsfh {
+    padding: 10px;
+    font-size: 30px;
+    margin-top: 40px;
+    border-radius: 10px;
+    background: transparent;
+    border: white 1px solid ;
+    font-family: "Jomhuria", serif;
+    font-weight: 550;
+    color: white;
+    cursor: pointer;
+    z-index: 7;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.header .header-right .tsfh:hover{
+    color: rgb(255, 255, 255);
+    transition: 0.4s;
+}
+.header .header-right .tsfh span{
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    z-index: -2;
+    border-radius: 10px;
+    left: 0px;
+    top: 0px;
+    background-image: linear-gradient(rgba(20, 20, 20, 0.7), rgba(20, 20, 20, 0.1))
+}
+.header .header-right .tsfh:hover span{
+    width: 100%;
+    transition: 0.4s;
+}
+@media screen and (max-width:480px) {
+    .header .header-right h1{
+        font-size: 40px;
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+}
+@media screen and (min-width:481px) and (max-width:768px) {
+    .header .header-right h1{
+        font-size: 40px;
+        text-align: center;
+    }
+}
+

@@ -1,0 +1,16 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    direction:ltr;;
+    gap:20px;
+    background-image: linear-gradient(rgba(20, 20, 20, 11), rgba(20, 20, 20, 0.6));
+    color: white;
+    text-align: center;
+    z-index: 200;
+}
+
+body{
+    position: relative!important;
+    height:max-content;
+}

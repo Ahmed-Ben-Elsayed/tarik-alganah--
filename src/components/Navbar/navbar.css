@@ -1,0 +1,129 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px;
+    position: sticky;
+    width: 100%;
+    top: 0px;
+    z-index:10000;
+    background-image: linear-gradient(rgba(20, 20, 20, 11), rgba(20, 20, 20, 0.6));
+}
+
+nav .nav-right{
+    margin-right:30px;
+    font-size: 30px;
+    font-family: "Noto Nastaliq Urdu", serif!important;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+    text-decoration: none;
+}
+nav .nav-left{
+display: flex;
+justify-content: center;
+gap: 25px;
+align-items: center;
+text-decoration: none;
+list-style: none;
+margin-left: 35px;
+}
+nav .nav-left li {
+    position: relative;
+}
+nav .nav-left li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+nav .nav-left li span{
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: -14px;
+    right: 0px;
+    background-color: rgb(255, 255, 255);
+}
+nav .nav-left li:hover span{
+    width: 100%;
+    transition: 0.5s;
+}.menue{
+    color: white;
+    font-size: 35px;
+    margin-left: 25px;
+    display: none;
+}
+.dicon{
+    color: white;
+    font-size: 22px;
+    margin-top: 10px;
+    cursor: pointer;
+}.sun{
+    animation: sun infinite 2s;
+}
+@keyframes sun {
+    form{
+        transform: rotate(0deg);
+    }
+    to{
+        
+        transform: rotate(360deg);
+    }
+}
+@media screen and (max-width:480px) {
+    nav{
+        position: relative;
+    }
+    nav .nav-left{
+        flex-direction: column;
+        position: absolute;
+        background-image: linear-gradient(rgba(20, 20, 20, 11), rgba(20, 20, 20, 0.6));
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        top:-779px;
+        padding: 20px 0px;
+    }.menue{
+        display: block;
+    }
+    .down {
+        transition: 0.5s;
+        position: absolute;
+        top: 78px !important;
+        display: flex!important;
+    }
+    .up{
+        transition: 0.5s;
+        position: absolute;
+        top: -779px !important;
+    }
+}
+@media screen and (min-width:481px) and (max-width:768px) {
+    nav{
+        position: sticky;
+    }
+    nav .nav-left{
+        flex-direction: column;
+        position: absolute;
+        background-image: linear-gradient(rgba(20, 20, 20, 11), rgba(20, 20, 20, 0.6));
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        top:-779px;
+        padding: 20px 0px;
+    }.menue{
+        display: block;
+    }
+    .down {
+        transition: 0.5s;
+        position: absolute;
+        top: 78px !important;
+        display: flex!important;
+    }
+    .up{
+        transition: 0.5s;
+        position: absolute;
+        top: -779px !important;
+    }
+}
+

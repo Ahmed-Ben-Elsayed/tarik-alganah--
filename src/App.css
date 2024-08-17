@@ -1,0 +1,133 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+html{
+  direction: rtl;
+  font-family: "Cairo", sans-serif;
+}
+a{
+  text-decoration: none;
+}
+body{
+  background-color: aliceblue;
+  position: relative!important;
+    font-family: "Cairo", sans-serif;
+
+}
+.sweet-loading{
+  display: flex!important;
+  height:90vh ;
+  justify-content: center!important;
+  align-items: center!important;
+  width: 90%;
+  margin: auto;
+  margin-top: 30px;
+}
+.sp{
+  font-size: 50px!important;
+  margin: auto;
+}
+.arrows{
+  position: fixed;
+  bottom:10px;
+  right:20px;
+  background-color: green;
+  border-radius: 50%;
+  color: whitesmoke;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  padding:5px;
+  animation: arrow infinite 2s;
+  display: none;
+  cursor: pointer;
+}
+.arrow{
+  position: absolute;
+  font-size: 25px;
+  cursor: pointer;
+}
+ body .dark{
+  background-color: black!important;
+}
+.dark .contact {
+  background-color: black!important;
+}
+.dark .con{
+  background-color: black!important;
+
+}.dark .con img{
+  border-radius: 30%;
+  margin: auto;
+}
+.dark .category{
+  background-color: gray;
+  color: white;
+}.dark  .slider{
+  background-color: gray;
+  color: white;
+}
+.dark .quaran{
+  background-color: gray;
+  color: white;
+}
+.dark .sheet{
+  background-color: gray;
+  color: white;
+}.dark .tafsir{
+  background-color: gray;
+  color: white;
+}.dark form{
+  background-color: grey!important;
+}.dark .card{
+  background-color: gray!important;
+  color: white!important;
+}
+ .dark .card h2{
+  width: 90px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 50%;
+}
+.dark .card h3{
+  color: rgb(255, 255, 255);
+}
+.dark .add{
+  color: white!important;
+}.dark .css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+  background-color: rgb(236, 238, 238)!important;
+}.dark .categ{
+  background-color: gray!important;
+  color: white;
+}
+.dark .categ h3{
+  color: white!important;
+}.dark .categ .icon{
+  color: aliceblue!important;
+}
+@keyframes arrow {
+  0%{
+    bottom: 10;
+  }
+  50%{
+    bottom: 15px;
+  }
+}
+.dark .iqraa .label{
+  color: black!important;
+  font-size: 20px!important;
+}
+.dark .iqraa .select{
+  color: black!important;
+  font-size: 16px!important;
+}

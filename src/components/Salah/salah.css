@@ -1,0 +1,102 @@
+ .address{
+    position: relative;
+    width: max-content;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: green;
+    margin-bottom: 60px;
+}
+.address .span1{
+    position: absolute;
+    bottom: -10px;
+    width: 100%;
+    height: 4px;
+    background-color: green;
+}
+.address .span2{
+    position: absolute;
+    bottom: -20px;
+    width: 70%;
+    margin: auto;
+    height: 4px;
+    background-color: green;
+}
+.salah{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}.cards{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    margin-bottom: 30px;
+
+}
+.cards .card{
+    background-color: white;
+    height: 200px;
+    width: 20%;
+    margin: auto;
+    /* border: 2px solid green; */
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.card h2{
+    width: 90px;
+    color: green;
+    margin-bottom: 20px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid green;
+    padding: 20px;
+    border-radius: 50%;
+}
+.card h3{
+    color: green;
+}
+.add{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+
+}
+.sel{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+@media screen and (max-width:480px) {
+    .cards .card{
+    width: 90%;
+  }.add{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+    }
+    @media screen and (min-width:481px) and (max-width:768px) {
+      
+        .cards .card{
+            width: 40%;
+          }.add{
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+          }
+    }

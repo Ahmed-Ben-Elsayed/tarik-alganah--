@@ -1,0 +1,54 @@
+.Quran{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px ;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.quaran{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding:5px;
+    margin-top: 10px;
+    font-family: sans-serif; 
+    font-size: 17px;
+    gap: 5px;
+    flex-direction: column;
+    border:2px solid green;
+    background-color: white;
+    width:15%;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+
+}.quaran:hover{
+    transform: scale(1.03)!important;
+    transition: 0.4s!important;
+}
+.qaddress{
+    text-align: center;
+    margin-top: 30px;
+    color: green;
+}
+@media screen and (max-width:480px) {
+   .quaran{
+    width: 90%;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0px;
+   }
+   }
+   @media screen and (min-width:481px) and (max-width:768px) {
+     
+    .quaran{
+        width: 40%;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 20px 0px;
+       }
+   }
+   

@@ -1,0 +1,76 @@
+.categs{
+    width: 90%;
+    margin: auto;
+    margin-top:0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    height:90vh;
+}
+.categ{
+    background-color: white;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    width: 29%;
+    height: 145px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    padding: 20px 0px ;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 10px;
+    border:2px solid green;
+
+}
+.categ .icon{
+    color: green;
+    font-size: 40px;
+    margin-top: 20px;
+}
+.categ:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+    h3{
+        color: green;
+        transition: 0.5s;
+    }
+    color: green;
+    border: greenyellow 2px solid;
+}
+.categ h3{
+    color: rgb(0, 0, 0);
+}
+@media screen and (max-width:481px) {
+ .categs{
+    width: 100%!important;
+    display: flex!important;
+    flex-direction: column!important;
+    flex-wrap: nowrap!important;
+ }
+ .categ{
+    width: 90%!important;
+    margin: 10px auto;
+ }
+}
+@media screen and (min-width:481px) and (max-width:768px) {
+  
+    .categs{
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 0px;
+        justify-content: center;
+        align-items: center;
+     }
+     .categ{
+        width:90%;
+        height: 200px;
+        margin:0px auto;
+     }
+     .last{
+        width: 90%;
+     }
+}
